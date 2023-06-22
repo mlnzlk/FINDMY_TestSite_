@@ -1,0 +1,85 @@
+#background
+{
+    height:100%;
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+}
+#background_2
+{
+    height:100%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+
+#view
+{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#icon
+{
+    position: absolute;
+    z-index: 2;
+    width:60vw;
+    height:30vh;
+    top:17vh;
+}
+#text_logo
+{
+    position: absolute;
+    z-index: 2;
+    top:48vh;
+    width:60vw;
+    height:9vh;
+}
+#intro
+{
+    position: absolute;
+    z-index: 2;
+    top:58vh;
+    font-family: 'Pretendard Variable';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2vh;
+    /* line-height: 19px; */
+    /* identical to box height */
+
+    letter-spacing: -0.04em;
+
+    color: rgba(255, 255, 255, 0.8);
+}
+#start_btn
+{
+    position: absolute;
+    z-index: 2;
+    width: 50vw;
+    height: 8vh;
+    top: 70vh;
+
+    background: #F691AA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 43px;
+    border-color: #F691AA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Pretendard Variable';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 5vw;
+    line-height: 30px;
+    /* identical to box height, or 150% */
+    
+    letter-spacing: -0.02em;
+    
+    color: #606060;
+}

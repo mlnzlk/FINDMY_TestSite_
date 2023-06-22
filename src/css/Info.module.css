@@ -1,0 +1,183 @@
+#background
+{
+    height:100%;
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+}
+#background_2
+{
+    height:100%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+
+#view
+{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index:2;
+}
+#text
+{
+    position: absolute;
+    top:20vh;
+    z-index: 2;
+}
+
+.t_1
+{
+    font-family: 'Pretendard Variable';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.5vh;
+    line-height: 3vh;
+    margin:0.7vh;
+    /* or 150% */
+
+    letter-spacing: -0.02em;
+
+    color: #606060;
+}
+
+
+/* 성별 선택 */
+#my_gender
+{
+    position: absolute;
+    font-size:3vh;
+    font-weight: 950;
+    margin:0.5vh;
+    color: #606060;
+    top:33vh;
+}
+#select_gender
+{
+    position: absolute;
+    top:40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#select_gender button
+{
+    display: inline-block;
+    width:30vw;
+    height:5vh;
+}
+#gender_m
+{
+    border-radius: 41.5px 0px 0px 41.5px;
+}
+#gender_w
+{
+    border-radius: 0px 41.5px 41.5px 0px;
+}
+
+
+/* 연도 선택ㄴ */
+#my_old
+{
+    position: absolute;
+    font-size:3vh;
+    font-weight: 950;
+    margin:0.5vh;
+    color: #606060;
+    top:53vh;
+}
+#select_old
+{
+    position: absolute;
+    top:58vh;
+    
+}
+#select_old button
+{
+    width:60vw;
+    height:4vh;
+    border-radius: 41.5px;
+    margin:1vh;
+}
+
+button
+{
+    display: block;
+    background: rgba(255, 255, 255, 0.71);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-color:  rgba(255, 255, 255, 0.71);
+    
+
+
+    font-family: 'Pretendard Variable';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.9vh;
+    /* identical to box height, or 150% */
+
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #606060;
+}
+
+#test_btn
+{
+    position: absolute;
+    z-index: 2;
+    width: 48vw;
+    height: 5vh;
+    top: 77vh;
+
+    background: #F691AA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 43px;
+    border-color: #F691AA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Pretendard Variable';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4vw;
+
+    
+    letter-spacing: -0.02em;
+    
+    color: #606060;
+}
+#gender_m_active
+{
+    display: block;
+    background: #F691AA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-color:  rgba(255, 255, 255, 0.71);
+    border-radius: 41.5px 0px 0px 41.5px;
+}
+#gender_w_active
+{
+    display: block;
+    background: #F691AA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-color:  rgba(255, 255, 255, 0.71);
+    border-radius: 0px 41.5px 41.5px 0px;
+}
+
+.old_active
+{
+    display: block;
+    background: #F691AA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-color:  rgba(255, 255, 255, 0.71);
+    width:60vw;
+    height:4vh;
+    border-radius: 41.5px;
+    margin:1vh;
+}

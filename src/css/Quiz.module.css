@@ -1,0 +1,141 @@
+#background
+{
+    height:100%;
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+}
+#background_2
+{
+    height:100%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+
+#view
+{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    z-index:2;
+}
+#header
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#test_logo
+{
+    position: relative;
+    width:48vw;
+    height:20vh;
+    /* left:7vw; */
+    /* display: block; */
+}
+
+.test_img
+{
+    /* position: absolute; */
+    width:60vw;
+    height:40vh;
+}
+.q_text
+{
+    /* position: absolute; */
+    margin:-2vh;
+    font-family: 'Pretendard Variable';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 5vw;
+
+
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #606060;
+}
+
+.btn_active
+{
+    width: 72vw;
+    height: 9vh;
+
+    background: #F691AA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 41.5px;
+    margin-top:3vh;
+    white-space: pre-wrap;
+}
+.btn
+{
+    width: 72vw;
+    height: 9vh;
+
+    background: rgba(255, 255, 255, 0.71);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 41.5px;
+    margin-top:3vh;
+    white-space: pre-wrap;
+}
+
+#progress_bar
+{
+    top:-5vh;
+    width:65vw;
+    display: block;
+    position: relative;
+}
+
+#number
+{
+    float:right;
+    font-size:4.5vw;
+    margin-top:-7vw;
+    color:#606060;
+}
+.q_text
+{
+    white-space: pre-wrap;
+    position: relative;
+    top:-2vh;
+    z-index:1;
+}
+#end_btn
+{
+    width: 20vw;
+    height: 5vh;
+    position: relative;
+    left:50vw;
+    margin-top:2vh;
+    background: #F691AA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 43px;
+    border-color: #F691AA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Pretendard Variable';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4.5vw;
+    line-height: 30px;
+    /* identical to box height, or 150% */
+    
+    letter-spacing: -0.02em;
+    
+    color: #606060;
+}
+
+
+.img_section
+{
+    position: relative;
+    z-index: 2;
+}
